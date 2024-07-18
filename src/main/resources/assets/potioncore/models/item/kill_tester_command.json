@@ -1,0 +1,23 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/missingno"
+  },
+  "display": {
+    "thirdperson": {
+      "rotation": [ -90, 0, 0 ],
+      "translation": [ 0, 1, -3 ],
+      "scale": [ 100, 100, 100 ]
+    },
+    "firstperson": {
+      "rotation": [ 0, -135, 25 ],
+      "translation": [ 0, 4, 2 ],
+      "scale": [ 100, 100, 100 ]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 3, 0 ],
+      "scale": [ 100, 100, 100 ]
+    }
+  }
+}

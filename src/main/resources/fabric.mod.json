@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "potioncore",
+  "version": "${version}",
+  "name": "PotionCoreReloaded",
+  "description": "A PotionCore Mod Reload on Fabric & 1.16.5",
+  "authors": [
+    "OrangePie"
+  ],
+  "contact": {
+    "repo": "https://github.com/yanyige/PotionCore"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/potioncore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.yyg0725.potioncore.client.PotionCoreReloadedClient"
+    ],
+    "main": [
+      "xyz.yyg0725.potioncore.PotionCoreReloaded"
+    ]
+  },
+  "mixins": [
+    "potioncore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "reach-entity-attributes": "*"
+  }
+}
